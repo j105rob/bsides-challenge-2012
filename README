@@ -27,7 +27,7 @@ chown redis:redis /var/lib/redis/6379/dump.rdb
 
 5) If you are Chrooting Apache (and you should) then remember the paths Apache sees are relative to the chroot environment.
 
-6) Make sure that the webserver user (probably www-data if on Debian/Ubuntu) cn write to the uploads/images directory. In this example I'm actually making it so the www-data group can write to it. I prefer the ownership to stay with root.
+6) Make sure that the webserver user (probably www-data if on Debian/Ubuntu) can write to the uploads/images directory. In this example I'm actually making it so the www-data group can write to it. I prefer the ownership to stay with root.
 
 chown root:www-data uploads/images
 chmod 775 uploads/images
