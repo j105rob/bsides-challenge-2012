@@ -32,4 +32,8 @@ chown redis:redis /var/lib/redis/6379/dump.rdb
 chown root:www-data uploads/images
 chmod 775 uploads/images
 
+7) Rename the directory _rename_this_to_.git to .git
+
+mv _rename_this_to_.git .git
+
 That's about it, go have fun.
